@@ -1,0 +1,360 @@
+
+.img-dev img{
+    cursor: pointer;
+}
+
+.transation_img{
+    transition: all 10s linear;
+    animation: transition_ 5s infinite;
+
+}
+
+@keyframes transition_ {
+    1%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.bi-star{
+    filter: drop-shadow(0px 2px yellow);
+}
+
+.container-black{
+    background-color: rgb(43, 43, 49) !important;
+} 
+
+.body-job{
+    margin: 0 auto;
+    width: 30%;
+    text-align: center;
+}
+
+.light-green{
+    background-color: rgb(189, 255, 221);
+   
+}
+
+@font-face {
+    font-family: "HussarBoldWeb";
+    src: url("../font/HussarBoldWeb-bf92.woff") format("woff");
+    font-display: swap;
+}
+
+*{
+    font-family: 'Croissant One', serif;
+    font-family: 'Inclusive Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Nova Square', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    font-family: 'Tilt Neon', sans-serif;
+}
+
+.collaboration-img img{
+    width: 15% ;
+    margin: 0.5rem 1rem;
+}
+
+@media screen and (max-width: 768px){
+    .collaboration-img img{
+        width: 40% ;
+        margin: 0.5rem 1rem;
+    }
+
+    .body-job{
+        margin: 0 auto;
+        width: 80%;
+        text-align: center;
+    }
+
+    .Fondo-Login{
+        width: 75% !important;
+        
+    }
+    
+}
+
+
+
+.questions section{
+    width: 100%; 
+    height: auto;
+}
+
+.questions section p{
+    overflow: hidden;
+    max-height: 0;
+    text-align: justify;
+    color:rgb(29, 29, 29);
+    transition: all 0.2s linear;
+    padding-left: 1rem;
+    transition: all 2s ease-in-out;
+    color:white;
+}
+
+.questions section a{
+    text-decoration: none;
+    display: block; 
+    color:rgb(27, 27, 27); 
+   
+    font-weight: bold;
+   
+    text-align: start;
+    padding-left: 1rem;
+}
+
+section:target p{
+    max-height: 10rem;
+    
+}
+
+section:target a {
+    cursor: pointer;
+   background-color: rgb(195, 239, 129);
+}
+ 
+
+.questions1 section{
+    width: 100%; 
+    height: auto;
+}
+
+.questions1 section p{
+    overflow: hidden;
+    max-height: 0;
+    text-align: justify;
+    color:rgb(29, 29, 29);
+    transition: all 0.2s linear;
+    padding-left: 1rem;
+    transition: all 2s ease-in-out;
+    color:white;
+}
+
+.questions1 section a{
+    text-decoration: none;
+    display: block; 
+    color:rgb(27, 27, 27); 
+   
+    font-weight: bold;
+   
+    text-align: start;
+    padding-left: 1rem;
+}
+
+section:target p{
+    max-height: 20rem !important;
+    
+}
+table,
+td,
+th {
+  border: 0.1rem solid black;
+  border-spacing: 0;
+  border-spacing: 0.1rem;
+}
+
+table {
+    font-size: 1rem;
+    border-collapse: collapse;
+    border-collapse: collapse; /* default */
+    empty-cells: hide; 
+    empty-cells: show; /* default */
+  }
+
+  
+  @media screen  and (max-width: 999px) {
+    .navbar{
+      width: 100% !important;
+    }
+
+    .light-green-ul{
+        list-style-type: none;
+    }
+
+    .Fondo-Login{
+        width: 60% !important;
+    }
+  }
+  
+
+  .navbar-toggler {
+    width: 10rem;
+  }
+ 
+
+  header{
+        position: sticky;
+        top: 0px;
+        
+  }
+
+
+  .btn-green1{
+    border-radius: 1rem;
+    border: 0;
+    background-color: rgb(49, 156, 103);
+    filter: drop-shadow(4px 5px 10px  rgb(49, 156, 103));
+    color: white;
+    transition: filter 1s linear;
+  }
+
+.btn-green1:hover{
+
+    filter: none;
+    background-color: rgb(49, 156, 103);
+    color: white;
+
+}
+
+.text-green{
+    color: white;
+    cursor: pointer;
+    transition: color 1s ease;
+}
+.text-green:hover{
+    color:  rgb(49, 156, 103);
+}
+.get{
+    writing-mode: vertical-rl;
+    position: fixed;
+    right:0%;
+    top: 50%;
+    z-index: 999;
+    background-color: rgb(231, 164, 164);
+    color: rgb(49, 49, 49);
+    padding: 1rem 0.5rem;
+    border-radius: 0.4rem 0rem 0.5rem 0.5rem;
+    font-weight: lighter;
+    cursor: pointer;
+} 
+
+body{
+    position: relative;
+}
+
+
+.container-modal-iniciar{
+    width: 100%;
+    height: 100%;
+    position: fixed; 
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0,) ;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+    
+}
+
+.Fondo-Login{
+
+    width: 40%;
+    background: rgb(241, 241, 241);     
+    border-radius: 1rem;
+    display: block;
+    padding: 1rem;
+    box-shadow: 0px 2px  #211b1b !important;
+    position: relative;  
+    animation: myAwesomeAnimation 3s linear  1 alternate both;
+    
+
+}
+
+
+
+.buttom_close button:hover{
+     
+     cursor: pointer;
+    background-color: rgb(127, 35, 35);
+
+}
+
+
+.buttom_close button{
+    position: absolute ;
+    top: 0;
+    right: 0;
+    background-color: brown ;
+    padding:0.1rem 0.5rem;
+    color: white;
+    cursor: pointer;
+    transition: all 0.6s linear;
+    font-weight: 400;
+    border: 0;
+}
+
+
+form input{
+    border: solid 0.1rem rgb(113, 166, 82);
+    text-align: start;
+    padding: 0.6rem;
+    border-radius: 0.4rem;
+
+
+}
+
+form input:focus-visible{
+    border: solid 0.1rem rgb(166, 95, 82) !important;
+}
+
+
+@media screen and (max-width: 480px){
+    .collaboration-img img{
+        width: 20% ;
+        margin: 0.5rem 1rem;
+    }
+
+    .Fondo-Login{
+        width: 100% !important;
+        height: 100vh !important;
+        border-radius: 0 !important;
+        position: absolute;
+    }
+}
+
+
+  
+@keyframes myAwesomeAnimation {
+    1% {
+        opacity: 0;
+          
+    }
+
+    50% {
+        opacity: 1;
+      
+    }
+
+    70%{
+        transform: perspective(10rem) rotateZ(360deg);
+        
+    }
+
+    100%{
+        transform: perspective(10rem) translateZ(5px);
+       
+    }
+}
+ 
+
+
+a{
+    cursor: pointer;
+}
